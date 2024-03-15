@@ -47,7 +47,7 @@ export default function JobApp() {
 
   return (
     <div className="custom-app">
-      <h1 className="custom-title">News Job Board</h1>
+      <h1 className="custom-title">Job Board</h1>
       {itemIds === null || items.length < 1 ? (
         <p className="custom-loading">Loading...</p>
       ) : (
